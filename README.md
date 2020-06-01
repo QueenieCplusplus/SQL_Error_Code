@@ -11,6 +11,9 @@ for routine 'stored_procedure_name'
 SQL Statement:
 DROP procedure IF EXISTS `stored_procedure_name`
 
+          RROR 1370 (42000): execute command 
+          denied to user 'test'@'localhost' for routine 'mydb.myfunc'
+
 * Solution
 
 (1) 授權帳號擁有執行權限
