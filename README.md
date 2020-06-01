@@ -10,3 +10,8 @@ for routine 'stored_procedure_name'
 
 SQL Statement:
 DROP procedure IF EXISTS `stored_procedure_name`
+
+
+* Ref Doc
+
+https://www.edoou.com/articles/1575287575563138
