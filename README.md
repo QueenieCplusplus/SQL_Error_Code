@@ -11,6 +11,23 @@ for routine 'stored_procedure_name'
 SQL Statement:
 DROP procedure IF EXISTS `stored_procedure_name`
 
+* Solution
+
+(1) 授權帳號擁有執行權限
+
+      mysql> grant execute on mydb.* to 'test'@'localhost';
+      mysql> flush privileges;
+   
+(2) 函數調用
+
+    mysql> call myfunc();
+    ERROR 1370 (42000): execute command denied to user 'test'@'localhost' for routine 'mydb.myfunc'
+      
+(3) 函數授權執行需要授權帳號到資料庫外，還需要授權到資料庫的函數
+
+    mysql> grant execute on function mydb.myfunc to 'test'@'localhost';
+    mysql> flush privileges;
+
 
 * Ref Doc
 
