@@ -1,8 +1,8 @@
 # SQL_Error_Code
-my experience to DBA
+{ my experience to DBA }
 
 
-ERROR 1370
+* Error Code 1370
 
 alter routine command 
 denied to user 'account_name'@'IP' 
