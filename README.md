@@ -35,3 +35,8 @@ DROP procedure IF EXISTS `stored_procedure_name`
 * Ref Doc
 
 https://www.edoou.com/articles/1575287575563138
+
+
+* Refresh Stored Procedures and Connection Error Behaviour
+
+https://bugs.mysql.com/bug.php?id=81780
