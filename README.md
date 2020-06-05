@@ -4,9 +4,9 @@
 
 * Error  Code 1415
 
-Not allowed to return a result set from a function.
+          Not allowed to return a result set from a function.
 
-How to do IPC with usp (which is stored procedure) and fn (which is function).
+          How to do IPC with usp (which is stored procedure) and fn (which is function).
 
 
 * Error Code 1370
