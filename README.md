@@ -2,6 +2,11 @@
 { my experience to DBA }
 
 
+* Error  Code 1415
+
+Not allowed to return a result set from a function.
+
+
 * Error Code 1370
 
 alter routine command 
